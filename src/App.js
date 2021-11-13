@@ -32,7 +32,7 @@ function App() {
 	
 	const onTextChange = (event) => {
 		clearTimeout(timeoutId);
-	const timeout = setTimeout(() => fetchPark(event.target.value), 500);
+	const timeout = setTimeout(() => fetchPark(event.target.value), 700);
 		updateTimeoutId(timeout);		
 	};
 	
